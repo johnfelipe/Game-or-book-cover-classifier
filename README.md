@@ -17,6 +17,7 @@ https://huggingface.co/spaces/gracjans/Game-or-book-cover-classifier
 
 Just drop any cover picture from the internet, or upload it from your disc and click 'Submit'. You can also try example covers from below.
 
+### Screenshot from demo
 ![demo](https://user-images.githubusercontent.com/77151129/153781706-4036fc2b-0f08-4be4-897b-9e6983dd7d50.PNG)
 
 ## Brief summary
