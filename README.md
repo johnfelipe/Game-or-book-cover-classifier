@@ -11,6 +11,14 @@ The dataset contained a total of 3400 cover images, 1700 for each of the two cla
 Covers dataset can be found directly on this repository in the 'data' folder, or on google drive here:
 https://drive.google.com/drive/folders/123cqUNCWFNKFnlV-sa4onJj-wrneWRiX?usp=sharing
 
+## Model demo
+You can try to make a prediction yourself using this model, as it has been deployed on hugging face spaces here:
+https://huggingface.co/spaces/gracjans/Game-or-book-cover-classifier
+
+Just drop any cover picture from the internet, or upload it from your disc and click 'Submit'. You can also try example covers from below.
+
+![demo](https://user-images.githubusercontent.com/77151129/153781706-4036fc2b-0f08-4be4-897b-9e6983dd7d50.PNG)
+
 ## Brief summary
 The model created classified computer game covers from book covers with an accuracy of over 82% on the test set. Accuracy on the test set was over 92%. An important element in improving the prediction accuracy on the test set was the addition of a dropout layer after each of the dense layers, as there is a strong tendency for the training set to memorize each of the cover, not to generalize. I consider this a pretty good result considering how small the dataset was.
 
